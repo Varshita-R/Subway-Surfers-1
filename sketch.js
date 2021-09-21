@@ -4,8 +4,8 @@ var jake, security;
 var jakeImg;
 
 function preload(){
-backgroundImg = loadImage("images/Tracks.png");
-jakeImg = loadImage("images/JakeFront.png");
+backgroundImg = loadImage("Tracks.png");
+jakeImg = loadImage("JakeFront.png");
 }
 
 function setup() {
