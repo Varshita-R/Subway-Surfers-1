@@ -2,10 +2,12 @@ var backgroundImg;
 var track1, track2, track3;
 var jake, security;
 var jakeImg;
+var trainImg;
 
 function preload(){
 backgroundImg = loadImage("Tracks.png");
 jakeImg = loadImage("JakeFront.png");
+trainImg = loadImage("images/Train2.1.jpg");
 }
 
 function setup() {
@@ -33,6 +35,9 @@ function setup() {
   jake.scale = 0.2;
   jake.addImage("jake",jakeImg);
   //jake.velocityY = -6;
+  
+  //train = createSprite(1270,350,20,20);
+  //train.addImage("train",trainImg);
 
 }
 
